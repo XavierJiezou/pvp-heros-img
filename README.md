@@ -19,3 +19,5 @@ pip install pyinstaller
 pyinstaller -F -i favicon.ico app_3.py
 pipenv --rm
 ```
+# Download
+- [Herodown-win64-1.0.0.exe](https://github.com/XavierJiezou/python-crawl-learning/releases/download/1.0.0/Herodown-win64-1.0.0.exe)

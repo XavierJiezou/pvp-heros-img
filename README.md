@@ -21,5 +21,5 @@ pip install pyinstaller
 pyinstaller -F -i favicon.ico main.py
 pipenv --rm
 ```
-# Download
+# Realease
 - [Herodown-win64-1.0.0.exe](https://github.com/XavierJiezou/python-crawl-learning/releases/download/1.0.0/Herodown-win64-1.0.0.exe)

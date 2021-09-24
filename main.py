@@ -40,7 +40,7 @@ class TouxiangDownloader(object):
             link (str): Url of the image
             path (str): Save path of the image
         """
-        if os.path.exists(path): # Skip if the image has been downloaded
+        if os.path.exists(path):  # Skip if the image has been downloaded
             pass
         else:
             res = requests.get(link)
@@ -63,7 +63,8 @@ class TouxiangDownloader(object):
                     link = self.tmp.format(ename=ename)
                     path = self.dir+cname+self.tmp[-4:]
                     tp.submit(self.__save__, link, path).add_done_callback(
-                        lambda func: pbar.update())
+                        lambda func: pbar.update()
+                    )
         os.system('pause')
 
 

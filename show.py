@@ -17,7 +17,7 @@ def show(root: str = './heros/', cols: int = 10):
         plt.title(name[:-4])
         plt.imshow(plt.imread(os.path.join(root, name)))
         plt.axis('off')
-    plt.savefig('hero.jpg', bbox_inches='tight')
+    plt.savefig('demo.jpg', bbox_inches='tight')
 
 
 if __name__ == '__main__':

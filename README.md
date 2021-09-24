@@ -8,9 +8,9 @@ pip install -r requirements.txt
 ```
 # Usage
 ```bash
-git clone https://github.com/XavierJiezou/python-crawl-learning.git
-cd python-crawl-learning
-python app_3.py
+git clone https://github.com/XavierJiezou/pvp-heros-img.git
+cd pvp-heros-img
+python main.py
 ```
 # Build
 ```bash

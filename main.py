@@ -16,7 +16,7 @@ import os
 
 
 class TouxiangDownloader(object):
-    """Downloading heros' img from https://pvp.qq.com/ based on Muti-thread
+    """Downloading heros' images from https://pvp.qq.com/ based on Muti-thread
 
     Args:
         dir (str): The dir all imgs saved in. Default to './heros/'
@@ -26,7 +26,7 @@ class TouxiangDownloader(object):
         """Init method
 
         Args:
-            dir (str): The dir all imgs saved in. Default to './heros/'
+            dir (str): The dir all images saved in. Default to './heros/'
         """
         self.dir = dir
         os.makedirs(dir, exist_ok=True)
@@ -37,8 +37,8 @@ class TouxiangDownloader(object):
         """Save method
 
         Args:
-            link (str): Url of the img
-            path (str): Save path of the img
+            link (str): Url of the image
+            path (str): Save path of the image
         """
         if os.path.exists(path): # Skip if the image has been downloaded
             pass

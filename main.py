@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 '''
-@File    :   app_3.py
+@File    :   main.py
 @Time    :   2021/09/16 18:19:37
 @Author  :   Xavier Jiezou
 @Version :   1.0

@@ -1,5 +1,5 @@
 # Introduction
-Downloading heros' images from [https://pvp.qq.com/](https://pvp.qq.com/) based on Muti-thread.
+Downloading heros' images from [pvp.qq.com](https://pvp.qq.com/) based on Muti-thread.
 # Demo
 ![demo](demo.jpg)
 # Install

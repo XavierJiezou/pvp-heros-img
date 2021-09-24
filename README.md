@@ -16,7 +16,7 @@ pipenv install
 pipenv shell
 pip install -r requirements.txt
 pip install pyinstaller
-pyinstaller -F -i favicon.ico app_3.py
+pyinstaller -F -i favicon.ico main.py
 pipenv --rm
 ```
 # Download

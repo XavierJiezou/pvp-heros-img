@@ -1,7 +1,7 @@
 # Introduction
 Downloading heros' img from [https://pvp.qq.com/](https://pvp.qq.com/) based on Muti-thread.
 # Demo
-![demo][demo.jpg]
+![demo](demo.jpg)
 # Install
 ```bash
 pip install -r requirements.txt

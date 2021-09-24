@@ -64,6 +64,7 @@ class TouxiangDownloader(object):
                     path = self.dir+cname+self.tmp[-4:]
                     tp.submit(self.__save__, link, path).add_done_callback(
                         lambda func: pbar.update())
+        os.system('pause')
 
 
 if __name__ == '__main__':
